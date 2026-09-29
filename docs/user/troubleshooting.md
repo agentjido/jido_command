@@ -1,5 +1,7 @@
 # Troubleshooting
 
+> Historical reference only. No maintenance or support is available for this repository.
+
 ## Common command declaration issues
 
 | Error | Meaning | Fix |

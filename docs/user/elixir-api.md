@@ -1,5 +1,7 @@
 # Elixir API Usage
 
+> Historical reference only. This API is deprecated, unsupported, and not published as a package.
+
 `Jido.Code.Command` exposes the main runtime API.
 
 ## Functions

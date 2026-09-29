@@ -1,5 +1,7 @@
 # Permissions and Allowed Tools
 
+> Historical reference only. This permission model is deprecated and unsupported.
+
 Tool access is controlled by two layers:
 
 - Runtime permissions (`allow`, `deny`, `ask`)

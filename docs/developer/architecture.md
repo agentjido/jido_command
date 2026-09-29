@@ -1,5 +1,7 @@
 # Architecture
 
+> Historical reference only. This architecture is deprecated and has no supported successor.
+
 `jido_command` is a command-only runtime. Commands are markdown declarations compiled into `Jido.Action` modules and executed either directly (`invoke`) or through bus signals (`dispatch` + dispatcher).
 
 ## Supervisor topology

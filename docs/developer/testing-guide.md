@@ -1,5 +1,7 @@
 # Testing Guide
 
+> Historical reference only. This guide records the final test process for a deprecated and unsupported repository.
+
 This project uses ExUnit with focused module-level test suites.
 
 ## Run tests

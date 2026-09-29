@@ -1,8 +1,10 @@
 # User Guides
 
-These guides explain how to use `jido_command` as it exists today: a command-only runtime built on the Jido signal bus.
+> Historical reference only. Do not install or use this package for new work. This repository is deprecated, unsupported, and read-only.
 
-## What this runtime does
+These guides record how `jido_command` worked at its final source commit. They do not provide a supported setup or migration path.
+
+## What the final runtime did
 
 - Loads markdown commands from global and local roots.
 - Compiles each command into a `Jido.Action` module.

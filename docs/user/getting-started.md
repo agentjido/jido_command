@@ -1,8 +1,10 @@
-# Getting Started
+# Historical Setup Reference
 
-This guide gets a first command running with the current runtime.
+> Do not use these steps for new work. This repository is deprecated, unsupported, and read-only. The steps remain only to explain the final source state.
 
-## 1. Install deps
+This guide records the development setup that was used before retirement.
+
+## 1. Fetch historical development dependencies
 
 ```bash
 mix deps.get

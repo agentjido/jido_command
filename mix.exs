@@ -1,6 +1,6 @@
 defmodule Jido.Code.Command.MixProject do
   use Mix.Project
-  @source_url "https://github.com/pcharbon70/jido_command"
+  @source_url "https://github.com/agentjido/jido_command"
 
   def project do
     [
@@ -46,7 +46,7 @@ defmodule Jido.Code.Command.MixProject do
   end
 
   defp description do
-    "Command-only runtime built on Jido actions and signal bus primitives."
+    "Historical, deprecated, and unsupported command runtime for Jido."
   end
 
   defp package do

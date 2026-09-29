@@ -1,6 +1,8 @@
 # Developer Guides
 
-These guides describe how `jido_command` is implemented internally and how to extend or maintain it safely.
+> Historical reference only. This repository is deprecated, unsupported, and read-only. Do not start new development here.
+
+These guides describe the final internal implementation. They are not instructions to extend or maintain the retired repository.
 
 ## Guide map
 

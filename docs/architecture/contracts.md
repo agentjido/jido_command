@@ -1,5 +1,7 @@
 # Signal Contracts
 
+> Historical reference only. This repository is deprecated, unsupported, and read-only. These contracts have no supported successor.
+
 This document defines the runtime signal contracts implemented by the current command architecture.
 
 ## `command.invoke`

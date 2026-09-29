@@ -1,5 +1,7 @@
 # Command Lifecycle
 
+> Historical reference only. This lifecycle belongs to a deprecated and unsupported runtime.
+
 This page documents how commands move through runtime paths.
 
 ## Path A: Direct API invoke (`Jido.Code.Command.invoke/4`)

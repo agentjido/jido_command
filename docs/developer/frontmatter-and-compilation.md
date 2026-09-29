@@ -1,5 +1,7 @@
 # FrontMatter and Compilation
 
+> Historical reference only. This compiler and file format are deprecated and unsupported.
+
 Command modules are built from markdown files in `commands/*.md`.
 
 ## Compilation pipeline

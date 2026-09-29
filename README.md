@@ -1,8 +1,11 @@
 # Jido.Code.Command
 
-Jido.Code.Command is a command-only runtime built on `jido`, `jido_action`, and `jido_signal`.
+> [!IMPORTANT]
+> This repository is historical, deprecated, and unsupported. It is read-only and has no successor. Do not install it or use it for new work. The source, tests, and documents remain available as a historical reference.
 
-It supports:
+Jido.Code.Command was an experimental command-only runtime built on `jido`, `jido_action`, and `jido_signal`. It was never published to Hex and has no supported package release.
+
+The final historical implementation contains:
 
 - Markdown-defined commands (`.md` + YAML FrontMatter)
 - Exactly two optional command hook signals (`jido.hooks.pre`, `jido.hooks.after`)
@@ -19,7 +22,7 @@ It supports:
 - Unregistering a manual command restores the next available command for that name immediately
 - API `register_command`/`unregister_command` require non-empty string path/name and return `{:error, :invalid_path}` / `{:error, :invalid_name}` for invalid input
 
-## Runtime layout
+## Historical runtime layout
 
 - Global root: `~/.jido_code`
 - Local root: `<cwd>/.jido_code`
@@ -43,7 +46,7 @@ jido:
 Review {{target_file}} and summarize findings.
 ```
 
-## API usage
+## Historical API reference
 
 ```elixir
 # direct invoke
@@ -65,7 +68,7 @@ Jido.Code.Command.register_command("commands/review.md")
 Jido.Code.Command.unregister_command("review")
 ```
 
-## CLI usage
+## Historical CLI reference
 
 ```bash
 # build local command executable
@@ -113,20 +116,15 @@ mix run -e 'Jido.Code.Command.CLI.main(["unregister-command", "review"])'
 
 When both inline JSON (`--params`/`--context`) and file JSON (`--params-file`/`--context-file`) are provided, inline keys take precedence regardless of argument order.
 
-Install globally (optional):
+Do not install this command globally. The examples above only record the final interface for historical review.
 
-```bash
-mix do escript.build + escript.install
-```
-
-If needed, add `~/.mix/escripts` to your `PATH` so `command` is available everywhere.
-Set `JIDO_COMMAND_TZDATA_DIR` if you want a custom timezone data directory for the executable.
+The historical executable used `JIDO_COMMAND_TZDATA_DIR` for a custom timezone data directory.
 If `JIDO_COMMAND_TZDATA_DIR` is not set, the executable auto-seeds timezone release data from its embedded archive.
 If the configured timezone directory cannot be prepared, the executable falls back to a temp runtime directory.
 
 ## Settings
 
-`settings.json` supports these keys in the current implementation:
+The final implementation accepted these `settings.json` keys:
 
 - `$schema` (optional non-empty string)
 - `version` (optional SemVer string)
@@ -159,9 +157,13 @@ Signal contracts are documented in:
 
 - [`docs/architecture/contracts.md`](./docs/architecture/contracts.md)
 
-## Development
+## Historical verification
+
+The final archive check used:
 
 ```bash
 mix deps.get
 mix test
 ```
+
+No maintenance or support is available.

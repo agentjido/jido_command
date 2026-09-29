@@ -1,5 +1,7 @@
 # Module Reference
 
+> Historical reference only. These modules are deprecated and unsupported.
+
 Quick mapping of implementation modules to responsibilities.
 
 ## Application and public API

@@ -1,12 +1,12 @@
 # Contributing Guide
 
-## Local development workflow
+> Historical reference only. The repository does not accept active development or support work.
 
-1. Install dependencies.
-2. Make focused changes in small commits.
-3. Run quality checks before opening a PR.
+## Retirement policy
 
-## Quality checks
+The repository does not accept contributions, feature work, releases, or support requests. The source and history remain public for reference only.
+
+## Final verification commands
 
 ```bash
 mix test
@@ -14,22 +14,24 @@ mix credo --strict
 mix dialyzer
 ```
 
-## Coding expectations
+These commands record the former development checks. They do not define an active support promise.
+
+## Historical coding expectations
 
 - Keep runtime contracts explicit and strict.
 - Preserve compatibility of documented signal payloads.
 - Prefer small private helpers over deeply nested control flow.
 - Normalize and validate input close to module boundaries.
 
-## Documentation expectations
+## Historical documentation expectations
 
-When behavior changes:
+Before retirement, behavior changes required these document updates:
 
 - Update user guides in `docs/user` when external behavior changes.
 - Update developer guides in `docs/developer` for internal architecture changes.
 - Update `docs/architecture/contracts.md` for signal or validation contract changes.
 
-## Pull request checklist
+## Historical pull request checklist
 
 - Tests added/updated for changed behavior.
 - Quality checks pass (`test`, `credo`, `dialyzer`).

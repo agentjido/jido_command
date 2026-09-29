@@ -1,5 +1,7 @@
 # Command Declarations
 
+> Historical reference only. This command format is deprecated and unsupported.
+
 Commands are markdown files with YAML FrontMatter.
 
 ## File location

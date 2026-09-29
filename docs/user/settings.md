@@ -1,5 +1,7 @@
 # Settings
 
+> Historical reference only. These settings belong to a deprecated and unsupported runtime.
+
 The runtime loads and merges two `settings.json` files.
 
 ## Locations

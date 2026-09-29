@@ -1,6 +1,8 @@
 # CLI Usage
 
-`Jido.Code.Command.CLI` provides subcommands for command operations.
+> Historical reference only. The CLI is deprecated and unsupported. Do not install it for active use.
+
+`Jido.Code.Command.CLI` provided subcommands for command operations.
 
 ## Invocation pattern
 
@@ -34,7 +36,7 @@ Or load params/context from JSON files:
 ./command code-review --params-file params.json --context-file context.json
 ```
 
-Optional global install:
+Historical global installation command (do not run for active use):
 
 ```bash
 mix do escript.build + escript.install

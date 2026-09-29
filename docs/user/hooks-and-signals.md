@@ -1,5 +1,7 @@
 # Hooks and Signals
 
+> Historical reference only. These hooks and signals are deprecated and have no supported successor.
+
 The runtime is signal-driven. It uses the bus for command dispatch, results, and optional hook events.
 
 ## Core command signals

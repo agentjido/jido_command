@@ -1,5 +1,7 @@
 # Settings and Startup
 
+> Historical reference only. Do not use this startup model for new work.
+
 `Jido.Code.Command.Application` builds runtime configuration from global and local `settings.json` files.
 
 ## Startup flow
